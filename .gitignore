@@ -1,0 +1,72 @@
+# Ignore environment variable files
+.env.*.local
+.env.test.local
+.env.production.local
+.env.development.local
+.env.staging.local
+# Ignore build output
+dist
+build
+tmp
+temp
+# Ignore database files
+*.sqlite
+*.sqlite3
+# Ignore OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Ignore dependency directories
+node_modules/
+jspm_packages/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+*.ipr
+*.iws
+# Ignore test coverage directory
+coverage/
+# Ignore log files
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+# Ignore compiled output    
+lib-cov/
+# Ignore temporary files
+tmp/
+temp/
+# Ignore system files
+.DS_Store
+*.swp
+*.swo
+# Ignore npm debug files
+npm-debug.log
+yarn-error.log
+# Ignore build output
+dist/
+build/
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# Ignore Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+# Ignore Thumbnails
+._*
+# Ignore Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+# Ignore Icon files
+Icon?
+# Ignore Windows system files
+Thumbs.db
+config.bat
